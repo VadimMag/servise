@@ -8,3 +8,9 @@ reset --hard origin/master - тупо загрузить с сервака последнюю версию
 
 branch - просмотр веток
 branch asd - создание ветки asd
+checkout asd - переход на ветку asd
+merge asd - если находимся в мастере то все комиты сливаются в мастер с asd после push и сервак сливает
+
+branch -d asd - удаление ветки локально
+push origin --delete asd - удаление на серваке
+
